@@ -1,0 +1,158 @@
+#about {
+	width:1000px;
+	margin:auto;
+	font-family:Questrial,sans-serif;
+	background-color:#FFF;
+	padding:25px;
+	border-radius:3%;
+	}
+	
+#abouttitle {
+	font-size:20pt;
+	text-align:center;
+	padding:20px 0px 20px 0px;
+}
+
+#ad {
+	width:0px;
+	overflow:hidden;
+	}
+	
+#ask {
+	height:130px;
+	overflow:hidden;
+	}
+	
+#biography {
+	font-size:16pt;
+	line-height:24pt;
+	overflow:auto;
+}
+
+body {
+	margin:none;
+	background-color:#000;
+}
+
+.caption {
+	line-height:30px;
+	padding:10px;
+}
+
+.caption-padding {
+	color:#FFF;
+  	padding:20px 10px 0px 10px;
+  	font-size:14pt;
+  	text-align:center;
+	line-height:30px;
+}
+
+#container {
+	width:auto;
+	margin:none;
+}
+
+.date {
+	font-size:12pt;
+	padding:15px 0px 0px 0px;
+}
+
+.grid {
+	padding:none;
+}
+
+#header {
+	font-family:"Poiret One",serif;
+	font-size:50pt;
+	margin:none;
+	padding:0px 0px 30px 30px;
+	color:#FFF;
+}
+
+#header a {
+	text-decoration:none;
+	color:#FFF;
+}
+	
+.image-overlay-content {
+  width:100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; 
+}
+
+.js-masonry {
+	columnWidth:100%;
+	isFitWidth:true;
+	itemSelector:'.post';
+	percentPosition:true;
+	isInitLayout:false;
+}
+	
+@media screen and (min-width: 0px) and (max-width:600px) {
+	div.post {
+		width:100%;
+		margin:0px 0px 10px 0px;
+	}
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width:600px) {
+	div.post {
+		width:100%;
+		margin:0px 0px 20px 0px;
+	}
+}
+	
+#navigation {
+	font-size:20px;
+	padding:10px 0px 0px 65px;
+}
+
+#navigation a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.overlay-fade-in img {
+  transition: all 0.3s linear; 
+}
+
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out; 
+}
+
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1; 
+}
+
+.post {
+	float:left;
+	overflow:hidden;
+	position:absolute;
+	width:33.333333%;
+	font-family:Questrial,sans-serif;
+}
+
+.post img {
+	padding:none;
+	width:100%;
+}
+
+#self {
+	width:250px;
+	float:left;
+	padding-right:50px;
+	height:100%;
+}
+
+.socialicon {
+	padding-right:5px;
+}
+
+.wrap {
+	overflow:hidden;
+}
